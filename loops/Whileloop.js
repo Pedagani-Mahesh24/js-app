@@ -3,4 +3,5 @@ while (i < 10) {
      console.log(i);
      i++;
 }
-     
+
+console.log("hii")
