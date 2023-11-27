@@ -2,7 +2,7 @@ function getElementAtEvenIndex(arr) {
      let numbersArr = [];
 for (index = 0;index< arr.length;index++){
      if (index % 2 ==0){
-
+         numbersArr . push(arr[index]);
      }
 }
 return numbersArr;

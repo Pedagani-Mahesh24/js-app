@@ -8,7 +8,7 @@ switch (2) {
        break;
      case 2:
         day = "Tuesday";
-       break;
+        break;
      case 3:
        day = "Wednesday";
        break;

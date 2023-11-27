@@ -1,10 +1,11 @@
-function sumArray(arr){
-     sum = 0;
-     for (var i = 0; i < arr.length;i++){
-          sum += arr[i];
+function Summary(arr){
+     let sum = 0;
+     for (var i = 0;i < arr.length; i ++){
+          sum  += arr[i] ;
+
      }
      return sum;
 }
-var data = [10,34,76,89];
-var finalSum = sumArray(data);
-console.log(finalSum);
+var data = [17,56,78,67,89];
+var result = Summary(data);
+console.log(result);
